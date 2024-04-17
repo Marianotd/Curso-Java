@@ -32,12 +32,16 @@ public class Persona implements Serializable {
         this.telefono = telefono;
     }
 
-    public String getNombre() {
-        return this.nombre;
-    }
-
     public int getIdPersona() {
         return this.idPersona;
+    }
+
+    public void setIdPersona(int idPersona) {
+        this.idPersona = idPersona;
+    }
+
+    public String getNombre() {
+        return this.nombre;
     }
 
     public void setNombre(String nombre) {
