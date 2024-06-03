@@ -11,8 +11,13 @@
         Variable en alcance de sesion:
         <br/>
         Rectangulo:
+        <br/>
         Base: ${rectangulo.base}
+        <br/>
         Altura: ${rectangulo.altura}
+        <br/>
         Area: ${rectangulo.area}
+        <br/> <br/>
+        <a href="${pageContext.request.contextPath}/index.jsp">Regresar al inicio</a>
     </body>
 </html>
